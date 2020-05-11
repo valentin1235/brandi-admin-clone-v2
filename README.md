@@ -16,7 +16,7 @@ Fasion startup admin page building.
 - 주단위 백로그작성
 - 일단위 스탠드업미팅
          
-## 담당 개발 내역
+## 담당 개발 내역([API doc](https://documenter.getpostman.com/view/10892890/Szf6WTQ3?version=latest))
 #### Modeling
 - 초기 데이터베이스 스크립트 생성 : 테이블, 외래키 관계설정 
 - 셀러, 상품, 기획전 데이터에 선분이력 적용
@@ -49,15 +49,15 @@ Fasion startup admin page building.
 
 #### S3 버킷 생성 / 관리
 
-#### 기획전 등록
+#### 기획전(event) 등록
 - Flask validator를 통한 유효성 검사
 - 기획전 타입별 input 값 유효성 검사
 
-#### 기획전 수정
+#### 기획전(event) 수정
 - 선분이력을 고려한 이전 이력 중단과 새로운 이력 생성
 - 기획전 타입별 유효성 검사
 
-#### 기획전 상세정보 GET
+#### 기획전(event) 상세정보 GET
 - 기획전 타입에 프로모션 상품포함되어야 하면 프로모션 상품도 같이 리턴
 
 ## Demo
