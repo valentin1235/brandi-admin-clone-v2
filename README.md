@@ -1,6 +1,7 @@
 ## Backend Part Introduction
 
 Fasion startup admin page building. 
+[프로젝트 후기](https://velog.io/@valentin123/Project3-About-Brandi-Project)
 
 #### Topic 
  (주)브랜디 어드민 페이지 클론 프로젝트
